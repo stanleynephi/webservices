@@ -1,0 +1,19 @@
+{
+  "name": "webservices",
+  "version": "1.0.0",
+  "description": "mongodb api class",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "nuley stanley nephi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "mongodb": "6.17",
+    "nodemon": "^3.1.10"
+  }
+}
