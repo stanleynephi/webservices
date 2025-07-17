@@ -5,9 +5,11 @@
     "description": "This is the documentation for query database that contains contact information",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "https://webservices-yh66.onrender.com",
   "basePath": "/",
-  "schemes": ["http"],
+  "schemes": [
+    "http"
+  ],
   "paths": {
     "/api-doc": {
       "get": {
