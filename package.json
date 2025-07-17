@@ -16,7 +16,8 @@
     "dotenv": "^17.1.0",
     "express": "^5.1.0",
     "mongodb": "6.17",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.31.0",
