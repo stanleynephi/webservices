@@ -8,7 +8,7 @@ const documentation = {
     description:
       "This is the documentation for query database that contains contact information",
   },
-  host: "https://webservices-yh66.onrender.com",
+  host: "webservices-yh66.onrender.com",
 }
 
 const outputFile = "./swagger-output.json"
