@@ -9,7 +9,7 @@
   "basePath": "/",
   "schemes": ["https"],
   "paths": {
-    "/api-doc": {
+    "/api-docs": {
       "get": {
         "description": "",
         "responses": {
@@ -21,7 +21,7 @@
     },
     "/": {
       "get": {
-        "description": "",
+        "description": "Gets all the contact ID in the database.",
         "responses": {
           "200": {
             "description": "OK"
@@ -37,7 +37,7 @@
     },
     "/{id}": {
       "get": {
-        "description": "",
+        "description": "Gets a contact information using the id provided",
         "parameters": [
           {
             "name": "id",
@@ -61,7 +61,7 @@
     },
     "/createContact": {
       "post": {
-        "description": "",
+        "description": "Creates a new contact data in the database",
         "parameters": [
           {
             "name": "body",
@@ -97,7 +97,7 @@
     },
     "/updateContact/{id}": {
       "put": {
-        "description": "",
+        "description": "Update the contact information using the contact ID provided.",
         "parameters": [
           {
             "name": "id",
@@ -145,7 +145,7 @@
     },
     "/deleteContact/{id}": {
       "delete": {
-        "description": "",
+        "description": "Delete contact using the contact ID provided.",
         "parameters": [
           {
             "name": "id",
