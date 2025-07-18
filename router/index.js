@@ -6,8 +6,8 @@ const router = express.Router()
 const controller = require("../controller/")
 
 //route to the swagger ui page for the api documentation
-router.use("/api-doc", swaggerui.serve)
-router.get("/api-doc", swaggerui.setup(swaggerdocument))
+router.use("/api-docs", swaggerui.serve)
+router.get("/api-docs", swaggerui.setup(swaggerdocument))
 
 router.get("/", controller.professional_data)
 router.get("/:id", controller.usersbyID)
